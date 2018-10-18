@@ -75,18 +75,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/etc/nfc/sec_s3nrn81_rfreg.bin:system/etc/nfc/sec_s3nrn81_rfreg.bin \
     vendor/samsung/universal7880-common/proprietary/lib/hw/camera.vendor.exynos5.so:system/lib/hw/camera.vendor.exynos5.so \
     vendor/samsung/universal7880-common/proprietary/lib/hw/nfc_nci.universal7880.so:system/lib/hw/nfc_nci.universal7880.so \
+    vendor/samsung/universal7880-common/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/samsung/universal7880-common/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     vendor/samsung/universal7880-common/proprietary/lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
     vendor/samsung/universal7880-common/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     vendor/samsung/universal7880-common/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
-    vendor/samsung/universal7880-common/proprietary/lib/libprotobuf-cpp-fulN.so:system/lib/libprotobuf-cpp-fulN.so \
-    vendor/samsung/universal7880-common/proprietary/lib/libprotobuf-cpp-litN.so:system/lib/libprotobuf-cpp-litN.so \
     vendor/samsung/universal7880-common/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     vendor/samsung/universal7880-common/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/samsung/universal7880-common/proprietary/lib/libuniapi.so:system/lib/libuniapi.so \
     vendor/samsung/universal7880-common/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/universal7880-common/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
-    vendor/samsung/universal7880-common/proprietary/lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/qca_cld/qca_cld_wlan.ko \
     vendor/samsung/universal7880-common/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
     vendor/samsung/universal7880-common/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
     vendor/samsung/universal7880-common/proprietary/lib/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
@@ -103,8 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/lib64/libexynoscamera3.so:system/lib64/libexynoscamera3.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libhwjpeg.so:system/lib64/libhwjpeg.so \
-    vendor/samsung/universal7880-common/proprietary/lib64/libprotobuf-cpp-fulN.so:system/lib64/libprotobuf-cpp-fulN.so \
-    vendor/samsung/universal7880-common/proprietary/lib64/libprotobuf-cpp-litN.so:system/lib64/libprotobuf-cpp-litN.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libsensorhub.so:system/lib64/libsensorhub.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libsensorhubservice.so:system/lib64/libsensorhubservice.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libsensorlistener.so:system/lib64/libsensorlistener.so \
@@ -186,5 +182,3 @@ endif
 # Create Mali links for Vulkan and OpenCL
 PRODUCT_PACKAGES += libGLES_mali
 
-# Qualcomm WiFi driver
-PRODUCT_PACKAGES += qca_cld_wlan
